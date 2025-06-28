@@ -1,0 +1,12 @@
+.home-body {
+  margin: 0;
+  padding: 0;
+  background-image: url("img/home-img.jpg"); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 155vh;                
+  width: 100vw;                
+  font-family: Arial, sans-serif;
+  color: white;
+}
