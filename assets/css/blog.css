@@ -1,0 +1,42 @@
+/* assets/css/blog.css */
+.news-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.news-card {
+    border: 1px solid #eee;
+    width: 350px;
+    border-radius: 5px;
+    overflow: hidden; /* Keeps image corners rounded */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-content {
+    padding: 25px;
+}
+
+.news-card h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.news-card a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}

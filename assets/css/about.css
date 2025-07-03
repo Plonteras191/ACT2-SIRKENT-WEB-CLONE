@@ -1,0 +1,71 @@
+
+.discover-section {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 50px;
+    background-color:  #f5f0f0;
+}
+
+.discover-image,
+.discover-content {
+    flex: 1; 
+}
+
+.discover-image {
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+.discover-image:hover {
+    transform: scale(1.05);
+}
+
+.section-subtitle {
+    font-size: 20px;
+    color: #227e40;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.discover-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.stat-item strong {
+    font-size: 2.5rem;
+    color: #1abc9c;
+    display: block;
+}
+
+.about-btn {
+     background-color: #1abc9c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block; 
+    border: 2px solid #1abc9c;
+    transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+     background-color: #2ac869;
+  transform: scale(1.05);
+}
