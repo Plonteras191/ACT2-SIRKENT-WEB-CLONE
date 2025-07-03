@@ -5,6 +5,7 @@
       padding: 40px;
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      justify-content: center;
     }
 
     .contact-section h2 {
@@ -69,7 +70,6 @@
       margin-top: 30px;
       font-size: 14px;
       color: #555;
-      text-align: center;
     }
 
     .contact-info a {
@@ -79,4 +79,8 @@
 
     .contact-info a:hover {
       text-decoration: underline;
+    }
+
+    #message {
+      width: 100%;
     }

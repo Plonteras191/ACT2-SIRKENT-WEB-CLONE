@@ -4,20 +4,26 @@
     text-align: center;
 }
 
+
 .news-grid {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 40px;
     text-align: left;
+   
 }
 
+.news-card:hover {
+    transform: translateY(-5px);
+}
 .news-card {
     border: 1px solid #eee;
     width: 350px;
     border-radius: 5px;
     overflow: hidden; /* Keeps image corners rounded */
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
 }
 
 .news-card img {
